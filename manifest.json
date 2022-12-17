@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write a blog post in the style of your favorite thinker anywhere!",
+  "name": "Nugg's Strain Finder",
+  "description": "Let Nugg, your virtual budtender, know what you're looking for from your ideal strain!",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -11,6 +11,8 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Generate blog post"
-  }
+    "default_title": "Find your ideal strain"
+  }, 
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
+
